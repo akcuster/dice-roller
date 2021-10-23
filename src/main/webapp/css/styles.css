@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%
+}
+
+header {
+    text-align: center;
+    background-color: cadetblue;
+    padding: .5em;
+    border-radius: 2em;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+body {
+    background-color: silver;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+
+
+
+}
+
+main {
+    height: 100%;
+}
+
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    list-style: none;
+}
+
+ul li {
+    padding: 3em 5em;
+    text-align: center;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+a:hover {
+    color: darkslategray;
+}
+
+.output {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.roll {
+    text-align: center;
+}
+
+.button {
+    background-color: darkgoldenrod;
+    border-radius: 2em;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 1em;
+    margin-top: 4em;
+    margin-bottom: 5em;
+}
+
+.table {
+    text-align: center;
+}
+
+table {
+    border: black solid 5px;
+    background-color: darkgrey;
+    border-collapse: collapse;
+
+
+}
+
+th, td {
+    border: black solid 2px;
+    text-align: center;
+    padding: .5em;
+
+}
+
+footer {
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    margin-left: auto;
+    font-size: 1em;
+    padding-right: 2em;
+    text-decoration: underline;
+}
+
+footer p {
+    padding-left: 2em;
+}
+
+
+#diagram {
+
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
